@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (7.6.1)
+  - ReSwift (6.1.1)
+
+DEPENDENCIES:
+  - Kingfisher
+  - ReSwift
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - ReSwift
+
+SPEC CHECKSUMS:
+  Kingfisher: 93a3c6d0d551658a31e19f21747e1d15cb39d525
+  ReSwift: 929afd2c897f0d33c76c730710a31bb2d2a66713
+
+PODFILE CHECKSUM: 513d4e3ee97dcc7b6ba43b12ac60bf0d8e06ab3a
+
+COCOAPODS: 1.11.3
