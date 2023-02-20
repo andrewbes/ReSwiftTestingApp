@@ -117,7 +117,7 @@
 		B58D5643299E325A00D19ADC = {
 			isa = PBXGroup;
 			children = (
-				B58D564E299E325A00D19ADC /* ReSwiftTestingApp_v01 */,
+				B58D564E299E325A00D19ADC /* ReSwiftTestingApp */,
 				B58D564D299E325A00D19ADC /* Products */,
 				89BE6BF33265D096AD0FB8D2 /* Pods */,
 				79C7C63FADEC25D5D668718E /* Frameworks */,
@@ -132,7 +132,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B58D564E299E325A00D19ADC /* ReSwiftTestingApp_v01 */ = {
+		B58D564E299E325A00D19ADC /* ReSwiftTestingApp */ = {
 			isa = PBXGroup;
 			children = (
 				B58D5663299E33C100D19ADC /* AppRouter.swift */,
@@ -151,7 +151,7 @@
 				B58D5658299E325B00D19ADC /* Assets.xcassets */,
 				B58D565D299E325B00D19ADC /* Info.plist */,
 			);
-			path = ReSwiftTestingApp_v01;
+			path = ReSwiftTestingApp;
 			sourceTree = "<group>";
 		};
 		B58D5669299E33C100D19ADC /* State */ = {
