@@ -12,6 +12,7 @@
 		B568C90029A397090009DFAD /* GameScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568C8FF29A397090009DFAD /* GameScreen.storyboard */; };
 		B568C90229A39C1D0009DFAD /* RulesPopupScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568C90129A39C1D0009DFAD /* RulesPopupScreen.storyboard */; };
 		B568C90429A39C390009DFAD /* RulesPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568C90329A39C390009DFAD /* RulesPopupViewController.swift */; };
+		B568C90629A4BFA20009DFAD /* ColorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B568C90529A4BFA20009DFAD /* ColorState.swift */; };
 		B58D5650299E325A00D19ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D564F299E325A00D19ADC /* AppDelegate.swift */; };
 		B58D5654299E325A00D19ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D5653299E325A00D19ADC /* ViewController.swift */; };
 		B58D5659299E325B00D19ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58D5658299E325B00D19ADC /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		B568C8FF29A397090009DFAD /* GameScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameScreen.storyboard; sourceTree = "<group>"; };
 		B568C90129A39C1D0009DFAD /* RulesPopupScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RulesPopupScreen.storyboard; sourceTree = "<group>"; };
 		B568C90329A39C390009DFAD /* RulesPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesPopupViewController.swift; sourceTree = "<group>"; };
+		B568C90529A4BFA20009DFAD /* ColorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorState.swift; sourceTree = "<group>"; };
 		B58D564C299E325A00D19ADC /* ReSwiftTestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReSwiftTestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58D564F299E325A00D19ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58D5653299E325A00D19ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,7 +137,6 @@
 		B58D564E299E325A00D19ADC /* ReSwiftTestingApp */ = {
 			isa = PBXGroup;
 			children = (
-				B58D5663299E33C100D19ADC /* AppRouter.swift */,
 				B58D5683299E33C100D19ADC /* Actions */,
 				B58D5672299E33C100D19ADC /* DataSources */,
 				B58D566F299E33C100D19ADC /* Extensions */,
@@ -144,6 +145,7 @@
 				B58D5669299E33C100D19ADC /* State */,
 				B5D2342229A37B6A00E5848C /* Screens */,
 				B58D5680299E33C100D19ADC /* Views */,
+				B58D5663299E33C100D19ADC /* AppRouter.swift */,
 				B58D564F299E325A00D19ADC /* AppDelegate.swift */,
 				B58D56AE299E348A00D19ADC /* Main.storyboard */,
 				B58D56B1299E349500D19ADC /* LaunchScreen.storyboard */,
@@ -159,6 +161,7 @@
 			children = (
 				B58D566A299E33C100D19ADC /* AppState.swift */,
 				B58D566B299E33C100D19ADC /* RoutingState.swift */,
+				B568C90529A4BFA20009DFAD /* ColorState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				B58D56A2299E33C200D19ADC /* FlipPieceAction.swift in Sources */,
 				B58D569C299E33C200D19ADC /* SettingsTableViewController.swift in Sources */,
 				B58D56A3299E33C200D19ADC /* ChangeSettingsAction.swift in Sources */,
+				B568C90629A4BFA20009DFAD /* ColorState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
