@@ -47,6 +47,7 @@
 /* Begin PBXFileReference section */
 		03A7C551817F5A7F50799E92 /* Pods-ReSwiftTestingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftTestingApp.debug.xcconfig"; path = "Target Support Files/Pods-ReSwiftTestingApp/Pods-ReSwiftTestingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		0F0B38B3541AEB3AF003EDAD /* Pods-ReSwiftTestingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftTestingApp.release.xcconfig"; path = "Target Support Files/Pods-ReSwiftTestingApp/Pods-ReSwiftTestingApp.release.xcconfig"; sourceTree = "<group>"; };
+		B536740729A4CCBA00DEB0A0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B568C8FD29A396B40009DFAD /* SettingsScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsScreen.storyboard; sourceTree = "<group>"; };
 		B568C8FF29A397090009DFAD /* GameScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameScreen.storyboard; sourceTree = "<group>"; };
 		B568C90129A39C1D0009DFAD /* RulesPopupScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RulesPopupScreen.storyboard; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 				B58D56B1299E349500D19ADC /* LaunchScreen.storyboard */,
 				B58D5653299E325A00D19ADC /* ViewController.swift */,
 				B58D5658299E325B00D19ADC /* Assets.xcassets */,
+				B536740729A4CCBA00DEB0A0 /* Colors.xcassets */,
 				B58D565D299E325B00D19ADC /* Info.plist */,
 			);
 			path = ReSwiftTestingApp;
