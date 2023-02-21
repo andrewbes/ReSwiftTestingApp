@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38AD8574D714815C5AD88953 /* Pods_ReSwiftTestingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED732B166B0502877216846 /* Pods_ReSwiftTestingApp.framework */; };
+		B536740929A4DD9800DEB0A0 /* ColorReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536740829A4DD9800DEB0A0 /* ColorReducer.swift */; };
+		B536740B29A4DE4300DEB0A0 /* ColorAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536740A29A4DE4300DEB0A0 /* ColorAction.swift */; };
 		B568C8FE29A396B40009DFAD /* SettingsScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568C8FD29A396B40009DFAD /* SettingsScreen.storyboard */; };
 		B568C90029A397090009DFAD /* GameScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568C8FF29A397090009DFAD /* GameScreen.storyboard */; };
 		B568C90229A39C1D0009DFAD /* RulesPopupScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568C90129A39C1D0009DFAD /* RulesPopupScreen.storyboard */; };
@@ -32,12 +34,10 @@
 		B58D569A299E33C200D19ADC /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D567D299E33C100D19ADC /* MenuTableViewController.swift */; };
 		B58D569B299E33C200D19ADC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D567E299E33C100D19ADC /* GameViewController.swift */; };
 		B58D569C299E33C200D19ADC /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D567F299E33C100D19ADC /* SettingsTableViewController.swift */; };
-		B58D569D299E33C200D19ADC /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D5681299E33C100D19ADC /* CardCollectionViewCell.swift */; };
 		B58D56A0299E33C200D19ADC /* SetPieceAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D5685299E33C100D19ADC /* SetPieceAction.swift */; };
 		B58D56A1299E33C200D19ADC /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D5686299E33C100D19ADC /* RoutingAction.swift */; };
 		B58D56A2299E33C200D19ADC /* FlipPieceAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D5687299E33C100D19ADC /* FlipPieceAction.swift */; };
 		B58D56A3299E33C200D19ADC /* ChangeSettingsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D5688299E33C100D19ADC /* ChangeSettingsAction.swift */; };
-		B58D56AD299E347E00D19ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58D56AB299E347E00D19ADC /* LaunchScreen.storyboard */; };
 		B58D56B0299E348A00D19ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58D56AE299E348A00D19ADC /* Main.storyboard */; };
 		B58D56B8299E77AA00D19ADC /* Stroryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D56B7299E77A700D19ADC /* Stroryboard.swift */; };
 		B58D56BA299E781300D19ADC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58D56B9299E781300D19ADC /* UIViewController.swift */; };
@@ -48,6 +48,8 @@
 		03A7C551817F5A7F50799E92 /* Pods-ReSwiftTestingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftTestingApp.debug.xcconfig"; path = "Target Support Files/Pods-ReSwiftTestingApp/Pods-ReSwiftTestingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		0F0B38B3541AEB3AF003EDAD /* Pods-ReSwiftTestingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftTestingApp.release.xcconfig"; path = "Target Support Files/Pods-ReSwiftTestingApp/Pods-ReSwiftTestingApp.release.xcconfig"; sourceTree = "<group>"; };
 		B536740729A4CCBA00DEB0A0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B536740829A4DD9800DEB0A0 /* ColorReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorReducer.swift; sourceTree = "<group>"; };
+		B536740A29A4DE4300DEB0A0 /* ColorAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAction.swift; sourceTree = "<group>"; };
 		B568C8FD29A396B40009DFAD /* SettingsScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsScreen.storyboard; sourceTree = "<group>"; };
 		B568C8FF29A397090009DFAD /* GameScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameScreen.storyboard; sourceTree = "<group>"; };
 		B568C90129A39C1D0009DFAD /* RulesPopupScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RulesPopupScreen.storyboard; sourceTree = "<group>"; };
@@ -74,12 +76,10 @@
 		B58D567D299E33C100D19ADC /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		B58D567E299E33C100D19ADC /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B58D567F299E33C100D19ADC /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
-		B58D5681299E33C100D19ADC /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		B58D5685299E33C100D19ADC /* SetPieceAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPieceAction.swift; sourceTree = "<group>"; };
 		B58D5686299E33C100D19ADC /* RoutingAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
 		B58D5687299E33C100D19ADC /* FlipPieceAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPieceAction.swift; sourceTree = "<group>"; };
 		B58D5688299E33C100D19ADC /* ChangeSettingsAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeSettingsAction.swift; sourceTree = "<group>"; };
-		B58D56AC299E347E00D19ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ReSwiftTestingApp/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		B58D56AF299E348A00D19ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B58D56B2299E349500D19ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58D56B7299E77A700D19ADC /* Stroryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroryboard.swift; sourceTree = "<group>"; };
@@ -145,7 +145,6 @@
 				B58D5675299E33C100D19ADC /* Reducers */,
 				B58D5669299E33C100D19ADC /* State */,
 				B5D2342229A37B6A00E5848C /* Screens */,
-				B58D5680299E33C100D19ADC /* Views */,
 				B58D5663299E33C100D19ADC /* AppRouter.swift */,
 				B58D564F299E325A00D19ADC /* AppDelegate.swift */,
 				B58D56AE299E348A00D19ADC /* Main.storyboard */,
@@ -198,17 +197,9 @@
 			children = (
 				B58D5678299E33C100D19ADC /* AppReducer.swift */,
 				B58D5679299E33C100D19ADC /* RoutingReducer.swift */,
+				B536740829A4DD9800DEB0A0 /* ColorReducer.swift */,
 			);
 			path = Reducers;
-			sourceTree = "<group>";
-		};
-		B58D5680299E33C100D19ADC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B58D56AB299E347E00D19ADC /* LaunchScreen.storyboard */,
-				B58D5681299E33C100D19ADC /* CardCollectionViewCell.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B58D5683299E33C100D19ADC /* Actions */ = {
@@ -218,6 +209,7 @@
 				B58D5686299E33C100D19ADC /* RoutingAction.swift */,
 				B58D5687299E33C100D19ADC /* FlipPieceAction.swift */,
 				B58D5688299E33C100D19ADC /* ChangeSettingsAction.swift */,
+				B536740A29A4DE4300DEB0A0 /* ColorAction.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -336,7 +328,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B568C8FE29A396B40009DFAD /* SettingsScreen.storyboard in Resources */,
-				B58D56AD299E347E00D19ADC /* LaunchScreen.storyboard in Resources */,
 				B568C90029A397090009DFAD /* GameScreen.storyboard in Resources */,
 				B568C90229A39C1D0009DFAD /* RulesPopupScreen.storyboard in Resources */,
 				B58D5659299E325B00D19ADC /* Assets.xcassets in Resources */,
@@ -395,8 +386,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58D568F299E33C100D19ADC /* GameState.swift in Sources */,
+				B536740929A4DD9800DEB0A0 /* ColorReducer.swift in Sources */,
 				B58D5696299E33C100D19ADC /* AppReducer.swift in Sources */,
-				B58D569D299E33C200D19ADC /* CardCollectionViewCell.swift in Sources */,
 				B58D5697299E33C100D19ADC /* RoutingReducer.swift in Sources */,
 				B58D5695299E33C100D19ADC /* SettingsReducer.swift in Sources */,
 				B568C90429A39C390009DFAD /* RulesPopupViewController.swift in Sources */,
@@ -415,6 +406,7 @@
 				B58D569A299E33C200D19ADC /* MenuTableViewController.swift in Sources */,
 				B58D5692299E33C100D19ADC /* TableViewDataSource.swift in Sources */,
 				B58D56A1299E33C200D19ADC /* RoutingAction.swift in Sources */,
+				B536740B29A4DE4300DEB0A0 /* ColorAction.swift in Sources */,
 				B58D568C299E33C100D19ADC /* AppState.swift in Sources */,
 				B58D5690299E33C100D19ADC /* SettingsState.swift in Sources */,
 				B58D56A2299E33C200D19ADC /* FlipPieceAction.swift in Sources */,
@@ -427,14 +419,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B58D56AB299E347E00D19ADC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B58D56AC299E347E00D19ADC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		B58D56AE299E348A00D19ADC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

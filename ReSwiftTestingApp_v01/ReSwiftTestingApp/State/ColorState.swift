@@ -7,7 +7,7 @@
 
 import ReSwift
 
-enum ColorScheme: String {
+enum ColorScheme: String, CaseIterable {
     case yellow = "yellow"
     case green = "green"
     case blue = "blue"

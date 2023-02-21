@@ -11,6 +11,8 @@ struct MenuState {
   init() {
       sections = [
         .init(sectionTitle: "Navigation:", items: ["Settings", "Rule", "Game"]),
-        .init(sectionTitle: "Set colors:", items: ["Red", "Green", "Yellow"])]
+        .init(sectionTitle: "Set color scheme:", items: ColorScheme.allCases.reduce(into:[String]()) {
+            $0.append($1.rawValue)
+        })]
   }
 }
